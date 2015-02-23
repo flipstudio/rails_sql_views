@@ -7,7 +7,7 @@ require 'rake/gempackagetask'
 require File.join(File.dirname(__FILE__), 'lib/rails_sql_views', 'version')
 
 PKG_BUILD       = ENV['PKG_BUILD'] ? '.' + ENV['PKG_BUILD'] : ''
-PKG_NAME        = 'rails_sql_views'
+PKG_NAME        = 'flip-rails_sql_views'
 PKG_VERSION     = RailsSqlViews::VERSION::STRING + PKG_BUILD
 PKG_FILE_NAME   = "#{PKG_NAME}-#{PKG_VERSION}"
 PKG_DESTINATION = ENV["PKG_DESTINATION"] || "../#{PKG_NAME}"
