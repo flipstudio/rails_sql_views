@@ -1,6 +1,6 @@
 module RailsSqlViews
   module ConnectionAdapters
-    module MysqlAdapter
+    module Mysql2Adapter
       REQUIRED_METHODS = [:supports_views?]
 
       def self.included(base)
